@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;500&display=swap');
+
+.botao {
+    padding: 16px 32px;
+    background:linear-gradient(#ffbf00, #f2a50c);
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.33;
+    box-shadow: 0, 1px 2px rgb(0, 0, 0, .1)
+}
+.botao:hover {
+    background:linear-gradient(#dbab19, #523907);
+}
+@media (max-width:600px) {
+    .botao {
+        padding: 12px 16px;
+        font-size: 16px
+    }
+}
