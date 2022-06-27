@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 600px;
 }
 ul {
     margin: 0px;
@@ -88,16 +89,32 @@ h1, ul, p {
 .introducao-bg {
     background-color: black;
     color: white;
+    box-shadow: inset 0 -120px white;
 }
 .introducao {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px 40px;
+    max-width: 1200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#point {
+    color: #FFBB00;
 }
 .introducao-conteudo {
     align-self: end;
-    padding-bottom: 80px;
+    padding-bottom: 200px;
 }
+.introducao img {
+   object-fit: cover;
+   height: 100%;
+   border-radius: 4px;
+}
+
 .introducao-conteudo h1 {
     margin-bottom: 32px;
     font-size: 64px;
@@ -108,4 +125,19 @@ h1, ul, p {
     font-size: 24px;
     line-height: 1.5;
     color: #b2b2b2;
+}
+.introducao a {
+    padding: 16px 32px;
+    background:linear-gradient(#ffbf00, #f2a50c);
+    display: inline-block;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    box-shadow: 0, 1px 2px rgb(0, 0, 0, .1)
+}
+.introducao a:hover {
+    background:linear-gradient(#dbab19, #523907);
 }
