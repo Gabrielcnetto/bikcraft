@@ -6,12 +6,12 @@
     display: inline-block;
     border-radius: 4px;
     text-transform: uppercase;
-    color: #332200;
-    font-size: 18px;
+    color: #332200;   
+     box-shadow: 0, 1px 2px rgb(0, 0, 0, .1);
+     font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 1.35;
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    line-height: 1.33;
-    box-shadow: 0, 1px 2px rgb(0, 0, 0, .1)
 }
 .botao:hover {
     background:linear-gradient(#dbab19, #523907);
